@@ -1,0 +1,21 @@
+{
+    "name": "higuita/bienes-raices-mvc-higuita",
+    "description": "Project witch PHP MVC and SASS",
+    "authors": [
+        {
+            "name": "Sebastian Higuita",
+            "email": "higuitamartinez@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload":{
+        "psr-4": {
+            "Model\\": "./models",
+            "Controllers\\": "./controllers",
+            "MVC\\": "./"
+        }
+    }
+}
